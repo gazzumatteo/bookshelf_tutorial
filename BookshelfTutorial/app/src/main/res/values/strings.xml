@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bookshelf Tutorial</string>
+    <string name="app_add_book_name">Add Book</string>
+    <!--Button-->
+    <string name="button_add">ADD</string>
+    <string name="button_back">BACK</string>
+
+
+    <!--EditText-->
+    <string name="hint_title">Title</string>
+    <string name="hint_author">Author</string>
+    <string name="hint_publisher">Publisher</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_url">URL</string>
+
+    <!--Labels-->
+    <string name="label_title">TITLE</string>
+    <string name="label_author">AUTHOR</string>
+
+    <!--Menu item-->
+    <string name="menu_esci">Exit</string>
+
+    <!--dialog-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_create_book">Create Book</string>
+</resources>

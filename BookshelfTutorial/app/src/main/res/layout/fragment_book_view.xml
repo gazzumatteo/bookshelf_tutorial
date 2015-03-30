@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:gravity="center"
+        android:hint="@string/hint_title"
+        android:padding="@dimen/padding_Item_Book_view"
+        android:textSize="@dimen/text_size_item_book" />
+
+    <TextView
+        android:id="@+id/tvAuthorView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitleView"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:gravity="center"
+        android:hint="@string/hint_author"
+        android:padding="@dimen/padding_Item_Book_view"
+        android:textSize="@dimen/text_size_item_book" />
+
+    <TextView
+        android:id="@+id/tvPublisherView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAuthorView"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:gravity="center"
+        android:hint="@string/hint_publisher"
+        android:padding="@dimen/padding_Item_Book_view"
+        android:textSize="@dimen/text_size_item_book" />
+
+    <TextView
+        android:id="@+id/tvCategoryView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPublisherView"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:gravity="center"
+        android:hint="@string/hint_category"
+        android:padding="@dimen/padding_Item_Book_view"
+        android:textSize="@dimen/text_size_item_book" />
+
+    <Button
+        android:id="@+id/btUrlView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCategoryView"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:hint="@string/hint_url"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="onClickBackFragment"
+        android:padding="15dp"
+        android:text="@string/button_back"
+        android:textSize="@dimen/text_size_item_book" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bookshelf Tutorial</string>
+    <string name="app_add_book_name">Aggiungi Libro</string>
+    <string name="button_add">Aggiungi</string>
+    <string name="button_back">Indietro</string>
+    <string name="dialog_cancel">Annulla</string>
+    <string name="dialog_create_book">Crea Libro</string>
+    <string name="dialog_ok">OK</string>
+    <string name="hint_author">Autore</string>
+    <string name="hint_category">Categoria</string>
+    <string name="hint_publisher">Editore</string>
+    <string name="hint_title">Titolo</string>
+    <string name="hint_url">URL</string>
+    <string name="label_author">Autore</string>
+    <string name="label_title">Titolo</string>
+    <string name="menu_esci">Esci</string>
+</resources>

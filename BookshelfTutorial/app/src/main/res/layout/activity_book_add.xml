@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etTittleBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint_title"
+        android:padding="@dimen/padding_Item_Book"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etAuthorBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTittleBook"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:hint="@string/hint_author"
+        android:padding="@dimen/padding_Item_Book"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etPublisherBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAuthorBook"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:hint="@string/hint_publisher"
+        android:padding="@dimen/padding_Item_Book"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etCategoryBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPublisherBook"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:hint="@string/hint_category"
+        android:padding="@dimen/padding_Item_Book"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etUrlBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCategoryBook"
+        android:layout_margin="@dimen/padding_Item_Book"
+        android:hint="@string/hint_url"
+        android:inputType="textUri"
+        android:padding="@dimen/padding_Item_Book"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="onClickAddBook"
+        android:padding="22dp"
+        android:text="@string/button_add"
+        android:textSize="@dimen/text_size_item_book" />
+</RelativeLayout>

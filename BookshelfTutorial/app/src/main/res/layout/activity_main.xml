@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--Creazione di un layout lineare, permette di disporre la view in linea verticale
+    o orizzonatale in base a come è stato impostato l'orientamento del layout-->
+
+    <FrameLayout
+        android:id="@+id/viewListBooks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

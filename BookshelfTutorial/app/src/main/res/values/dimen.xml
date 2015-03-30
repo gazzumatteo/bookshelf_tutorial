@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dichiarazione di dimen-->
+    <dimen name="padding_Item_Book">10dp</dimen>
+    <dimen name="padding_Item_Book_view">5dp</dimen>
+    <dimen name="text_size_item_book">25sp</dimen>
+</resources>
